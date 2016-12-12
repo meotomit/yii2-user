@@ -163,6 +163,6 @@ class Profile extends ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%profile}}';
+        return 'cms_profile';
     }
 }

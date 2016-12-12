@@ -105,7 +105,7 @@ class Token extends ActiveRecord
     /** @inheritdoc */
     public static function tableName()
     {
-        return '{{%token}}';
+        return 'cms_token';
     }
 
     /** @inheritdoc */
